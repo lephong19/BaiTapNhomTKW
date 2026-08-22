@@ -4,7 +4,7 @@
   "description": "Trang web gioi thieu pham mem quan ly dinh duong",
   "main": "index.js",
   "scripts": {
-    "dev": "tailwindcss -i ./scr/input.css -o ./dist/output.css --watch ",
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
