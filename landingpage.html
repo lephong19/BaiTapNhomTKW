@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./dist/output.css">
+    <title>Globe Travel</title>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+<!-- NAVBAR + BANNER -->
+<header class="relative h-[580px] max-w-[1380px] mx-auto overflow-hidden rounded-b-3xl">
+
+    <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7"
+         class="absolute inset-0 w-full h-full object-cover">
+
+    <div class="absolute inset-0 bg-black/30"></div>
+
+    <nav class="relative z-10 px-6 py-5 flex justify-between items-center text-white">
+    <!-- Logo Globe không gắn link -->
+    <h1 class="text-xl font-bold">globe</h1>
+
+    <div class="flex items-center gap-5 text-sm font-semibold">
+        <!-- Button 1: Chuyển sang login.html -->
+        <a href="./login.html" class="px-4 py-2 hover:opacity-80 transition-opacity">
+            Login
+        </a>
+
+        <!-- Button 2: Chuyển sang signup.html -->
+        <a href="./signup.html" class="bg-white text-black px-4 py-2 rounded-lg hover:bg-gray-100 transition-colors inline-block">
+            Sign up
+        </a>
+    </div>
+    </nav>
+
+    <!-- HERO CONTENT -->
+    <div class="relative z-10 mx-auto mt-24 px-6 max-w-3xl text-center text-white">
+        <p class="mb-2">Helping Others</p>
+
+        <h2 class="text-4xl md:text-5xl font-bold">
+            LIVE & TRAVEL
+        </h2>
+
+        <p class="mt-3">
+            Special offers to suit your plan
+        </p>
+    </div>
+
+    <!-- SEARCH -->
+    <div class="absolute z-10 bottom-[-1px] left-1/2 -translate-x-1/2
+                w-[90%] max-w-5xl bg-white p-5 rounded-xl shadow">
+
+        <div class="flex gap-5 mb-4 text-sm font-semibold">
+            <span>✈ Flights</span>
+            <span>▣ Hotels</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-3">
+            <input class="border rounded p-2" placeholder="From">
+            <input class="border rounded p-2" placeholder="To">
+            <input class="border rounded p-2" placeholder="Choose date">
+
+            <button class="bg-teal-400 text-white rounded">
+                Search
+            </button>
+        </div>
+    </div>
+
+</header>
+
+
+<!-- PLAN YOUR PERFECT TRIP -->
+<section class="max-w-[1232px] mx-auto px-6 py-12">
+
+    <div class="flex justify-between items-end mb-8">
+        <div>
+            <h2 class="text-2xl font-bold">Plan your perfect trip</h2>
+            <p class="text-sm text-gray-500 mt-1">
+                Search flights and hotels for your next adventure
+            </p>
+        </div>
+
+        <button class="border px-4 py-2 rounded-lg text-sm">
+            See more places
+        </button>
+    </div>
+
+
+    <!-- DESTINATIONS -->
+<div class="grid grid-cols-3 gap-6">
+
+    <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+        <img src="https://picsum.photos/400/200?random=1"
+             alt="Tokyo, Japan"
+             class="w-full h-28 object-cover">
+        <div class="p-3">
+            <h3 class="font-semibold">Tokyo, Japan</h3>
+            <p class="text-xs text-gray-500">Flights · Hotels · Resorts</p>
+        </div>
+    </div>
+
+    <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+        <img src="https://picsum.photos/400/200?random=2"
+             alt="Sydney, Australia"
+             class="w-full h-28 object-cover">
+        <div class="p-3">
+            <h3 class="font-semibold">Sydney, Australia</h3>
+            <p class="text-xs text-gray-500">Flights · Hotels · Resorts</p>
+        </div>
+    </div>
+
+    <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+        <img src="https://picsum.photos/400/200?random=3"
+             alt="Bali, Indonesia"
+             class="w-full h-28 object-cover">
+        <div class="p-3">
+            <h3 class="font-semibold">Bali, Indonesia</h3>
+            <p class="text-xs text-gray-500">Flights · Hotels · Resorts</p>
+        </div>
+    </div>
+
+    <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+        <img src="https://picsum.photos/400/200?random=4"
+             alt="Paris, France"
+             class="w-full h-28 object-cover">
+        <div class="p-3">
+            <h3 class="font-semibold">Paris, France</h3>
+            <p class="text-xs text-gray-500">Flights · Hotels · Resorts</p>
+        </div>
+    </div>
+
+    <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+        <img src="https://picsum.photos/400/200?random=5"
+             alt="London, UK"
+             class="w-full h-28 object-cover">
+        <div class="p-3">
+            <h3 class="font-semibold">London, UK</h3>
+            <p class="text-xs text-gray-500">Flights · Hotels · Resorts</p>
+        </div>
+    </div>
+
+    <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+        <img src="https://picsum.photos/400/200?random=6"
+             alt="Istanbul, Turkey"
+             class="w-full h-28 object-cover">
+        <div class="p-3">
+            <h3 class="font-semibold">Istanbul, Turkey</h3>
+            <p class="text-xs text-gray-500">Flights · Hotels · Resorts</p>
+        </div>
+    </div>
+
+</div>
+
+<!-- FLIGHTS & HOTELS -->
+<section class="max-w-[1232px] mx-auto px-6 pb-12">
+
+    <div class="grid grid-cols-2 gap-6">
+
+        <!-- FLIGHTS -->
+        <div class="relative h-[320px] rounded-xl overflow-hidden">
+
+            <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05"
+                 class="w-full h-full object-cover">
+
+            <div class="absolute inset-0 bg-black/25"></div>
+
+            <div class="absolute inset-0 flex flex-col
+                        justify-end items-center text-white pb-8">
+
+                <h2 class="text-2xl font-bold">Flights</h2>
+
+                <button class="bg-teal-400 px-5 py-2 mt-3 rounded-lg">
+                    Search flights
+                </button>
+
+            </div>
+        </div>
+
+
+        <!-- HOTELS -->
+        <div class="relative h-[320px] rounded-xl overflow-hidden">
+
+            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945"
+                 class="w-full h-full object-cover">
+
+            <div class="absolute inset-0 bg-black/25"></div>
+
+            <div class="absolute inset-0 flex flex-col
+                        justify-end items-center text-white pb-8">
+
+                <h2 class="text-2xl font-bold">Hotels</h2>
+
+                <button class="bg-teal-400 px-5 py-2 mt-3 rounded-lg">
+                    Search hotels
+                </button>
+
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!-- REVIEWS -->
+<section class="max-w-[1232px] mx-auto px-6 flex flex-col gap-10">
+
+    <!-- TITLE -->
+    <div>
+        <h2 class="text-2xl font-bold">
+            Reviews
+        </h2>
+
+        <p class="text-sm text-gray-500 mt-1">
+            What people say about us
+        </p>
+    </div>
+
+
+    <!-- REVIEW CARDS -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+        <div class="bg-white p-6 rounded-xl shadow">
+            <p class="text-lg font-semibold">
+                "A real sense of community."
+            </p>
+
+            <p class="text-yellow-500 my-4">
+                ★★★★★
+            </p>
+
+            <p class="text-sm text-gray-500">
+                Olga
+            </p>
+        </div>
+
+
+        <div class="bg-white p-6 rounded-xl shadow">
+            <p class="text-lg font-semibold">
+                "The facilities are superb."
+            </p>
+
+            <p class="text-yellow-500 my-4">
+                ★★★★★
+            </p>
+
+            <p class="text-sm text-gray-500">
+                Thomas
+            </p>
+        </div>
+
+
+        <div class="bg-white p-6 rounded-xl shadow">
+            <p class="text-lg font-semibold">
+                "A real sense of community."
+            </p>
+
+            <p class="text-yellow-500 my-4">
+                ★★★★★
+            </p>
+
+            <p class="text-sm text-gray-500">
+                Eric
+            </p>
+        </div>
+
+    </div>
+
+</section>
+<!-- NEWSLETTER -->
+<section class="max-w-6xl mx-auto px-6 py-8">
+
+    <div class="bg-teal-100 rounded-lg p-8">
+        <h2 class="text-2xl font-bold">Subscribe Newsletter</h2>
+
+        <p class="text-sm text-gray-600 my-3">
+            Get travel updates and special offers.
+        </p>
+
+        <div class="flex max-w-md">
+            <input class="flex-1 p-3 rounded-l" placeholder="Your email">
+            <button class="bg-gray-800 text-white px-5 rounded-r">
+                Subscribe
+            </button>
+        </div>
+    </div>
+
+</section>
+
+<!-- Footer -->
+<footer class="max-w-[1440px] mx-auto bg-teal-200 rounded-[30px] px-16 py-12">
+
+    <div class="grid grid-cols-4 gap-10">
+
+        <div>
+            <h2 class="text-xl font-bold">globe</h2>
+            <p class="text-sm mt-2">Travel the world with us.</p>
+        </div>
+
+        <div>
+            <h3 class="font-bold mb-3">Destinations</h3>
+            <p class="text-sm">Asia</p>
+            <p class="text-sm">Europe</p>
+        </div>
+
+        <div>
+            <h3 class="font-bold mb-3">Activities</h3>
+            <p class="text-sm">Flights</p>
+            <p class="text-sm">Hotels</p>
+        </div>
+
+        <div>
+            <h3 class="font-bold mb-3">Contact</h3>
+            <p class="text-sm">support@globe.com</p>
+        </div>
+
+    </div>
+
+    <div class="border-t border-black/20 mt-14 pt-5
+                flex justify-between text-sm">
+
+        <p>© 2026 Globe Travel</p>
+
+        <div class="flex gap-5">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+        </div>
+
+    </div>
+
+</footer>
